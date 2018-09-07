@@ -2,7 +2,7 @@
 sysreqs_base_url <- "https://sysreqs.r-hub.io"
 ## sysreqs_base_url <- "http://localhost:3000" # for local testing
 sysreqs_url <- paste0(sysreqs_base_url, "/map/platform/:platform/:query")
-sysreqs_cran_url <- paste0(sysreqs_base_url, "/pkg/:package/:platform")
+sysreqs_cran_url <- paste0(sysreqs_base_url, "/pkg/:package")
 sysreqs_platform_url <- paste0(sysreqs_base_url, "/platform/get/:platform")
 crandeps_url <- "http://crandeps.r-pkg.org/deps/:packages"
 rversions_url <- "http://rversions.r-pkg.org/:version"
